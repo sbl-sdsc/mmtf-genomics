@@ -1,4 +1,4 @@
-# mmtf-proteomics
+# mmtf-genomics
 Methods for mapping genomics data onto 3D protein structure.
 
 A few example Jupyter Notebooks are available for testing and feedback.
