@@ -1,0 +1,5 @@
+name: myBinder-environment
+
+dependencies:
+  - pip:
+      - git+https://github.com/sbl-sdsc/mmtf-pyspark.git#egg=mmtf-pyspark
