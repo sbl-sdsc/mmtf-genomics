@@ -11,6 +11,6 @@ Launching the Binder server may take a few minutes. [Binder (beta)](https://mybi
 
 Then navigate to the dbsnp directory and launch any of the notebooks.
 
-Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-proteomics/issues).
+Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-genomics/issues).
 
 Interested in a collaboration? Please send us use cases. 
