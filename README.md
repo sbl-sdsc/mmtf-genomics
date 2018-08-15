@@ -2,8 +2,8 @@
 Methods for mapping genomics data onto 3D protein structure.
 
 A few example Jupyter Notebooks are available for testing and feedback.
-* [dbSNPTo3DChain.ipynb](https://nbviewer.jupyter.org/github/sbl-sdsc/mmtf-genomics/blob/master/dbsnp/dbSNPTo3DChain.ipynb) Visualizes the positions of missense mutations mapped from dbSNP to 3D protein structures in the Protein Data Bank. 
-* [MutationsInPdb.ipynb](https://nbviewer.jupyter.org/github/sbl-sdsc/mmtf-genomics/blob/master/dbsnp/MutationsInPdb.ipynb) Finds and visualizes existing missense mutations from dbSNP in protein structure from the Protein Data Bank. 
+* [dbSNPTo3DChain.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FdbSNPTo3DChain.ipynb) Visualizes the positions of missense mutations mapped from dbSNP to 3D protein structures in the Protein Data Bank. 
+* [MutationsInPdb.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FMutationsInPdb.ipynb) Finds and visualizes existing missense mutations from dbSNP in protein structure from the Protein Data Bank. 
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master) to run life Jupter Notebooks in your web browser without software installation.
 
