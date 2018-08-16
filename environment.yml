@@ -2,4 +2,5 @@ name: myBinder-environment
 
 dependencies:
   - pip:
+      - jupyter_contrib_nbextensions  
       - git+https://github.com/sbl-sdsc/mmtf-pyspark.git#egg=mmtf-pyspark

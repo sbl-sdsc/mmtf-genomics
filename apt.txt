@@ -1,2 +1,4 @@
 openjdk-8-jre-headless
 ca-certificates-java
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
