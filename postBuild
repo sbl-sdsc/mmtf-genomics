@@ -1,2 +1,2 @@
 jupyter contrib nbextension install
-jupyter nbextension enable codefolding/main
+jupyter nbextension enable codefolding
