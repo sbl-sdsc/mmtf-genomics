@@ -1,2 +1,2 @@
 jupyter contrib nbextension install
-jupyter nbextension enable codefolding --user
+jupyter serverextension enable --py --sys-prefix codefolding 
