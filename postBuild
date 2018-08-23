@@ -1,3 +1,4 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable codefolding/main
 jupyter labextension install jupyterlab_3dmol
+jupyter lab build
