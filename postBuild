@@ -1,7 +1,7 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable codefolding/main
 jupyter nbextension enable autoscroll/main
-jupyter trust MutationsInPdb.ipynb dbSNPTo3DChain.ipynb
+jupyter trust ./dbsnp/MutationsInPdb.ipynb ./dbsnp/dbSNPTo3DChain.ipynb
 jupyter labextension install jupyterlab_3dmol
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter lab build
