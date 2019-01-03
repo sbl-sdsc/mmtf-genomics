@@ -11,4 +11,4 @@ dependencies:
   - biopython==1.72
   - pip:
       - jupyter_contrib_nbextensions  
-      - mmtf-pyspark==0.3.5
+      - mmtfPyspark==0.3.5
