@@ -4,6 +4,7 @@ Methods for mapping genomics data onto 3D protein structure.
 A few example Jupyter Notebooks are available for testing and feedback. Click on the notebook link to launch a live Jupyter Notebook in your web browser using [Binder (beta)](https://mybinder.org/).
 * [dbSNPTo3DChain.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FdbSNPTo3DChain.ipynb) Visualizes the positions of missense mutations mapped from dbSNP to 3D protein structures in the Protein Data Bank. 
 * [MutationsInPdb.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FMutationsInPdb.ipynb) Finds and visualizes existing missense mutations from dbSNP in protein structure from the Protein Data Bank. 
+* [1-ReadMutations.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=custom%2F1-ReadMutations.ipynb) Example and template to read a file with mutation data and map it onto 3D structures and protein-protein and protein-nucleic acid interfaces. 
 
 Launching the Binder server may take a few minutes. [Binder (beta)](https://mybinder.org/) is an experimental platform for reproducible research (The Binder servers can be slow, may run out of memory, or may not always work).
 
