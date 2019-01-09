@@ -31,7 +31,7 @@ Skip this step if you have `git` installed.
 
 ```setx SPARK_CONF_DIR <your path>\mmtf-genomics\conf```
 
-```setx HADOOP_HOME <your path>\mmtf-genomcs\conf```
+```setx HADOOP_HOME <your path>\mmtf-genomics\conf```
 
 *Important:* Close the Anaconda Prompt and reopen it to set the environment variables.
 
