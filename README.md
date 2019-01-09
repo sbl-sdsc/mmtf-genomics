@@ -13,6 +13,12 @@ Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-geno
 
 Interested in a collaboration? Please send us use cases. 
 
+# Local Installation
+
+[Mac and Linux](/docs/MacLinuxInstallation.md)
+
+[Windows](/docs/WindowsInstallation.md)
+
 # How to Cite this Work
 
 Bradley AR, Rose AS, Pavelka A, Valasatava Y, Duarte JM, Prlić A, Rose PW (2017) MMTF - an efficient file format for the transmission, visualization, and analysis of macromolecular structures. PLOS Computational Biology 13(6): e1005575. doi: [10.1371/journal.pcbi.1005575](https://doi.org/10.1371/journal.pcbi.1005575)
