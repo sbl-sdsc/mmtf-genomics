@@ -2,7 +2,8 @@
 
 If you have any problems with this installation, please [file an issue](https://github.com/sbl-sdsc/mmtf-genomics/issues) and describe any problems, so we can improve the instructions.
 
-[Install Anaconda](https://www.anaconda.com/download)
+#### Install the lastest version of Python using Anaconda
+[Download the Python 3.7 Anaconda installer](https://www.anaconda.com/download) and run the Anaconda installer.
 
 #### Open a terminal window
 
@@ -35,10 +36,10 @@ Anytime you want to use the environment, activate it again and start Jupyter Not
 ```conda remove -n mmtf-genomics --all```
 
 
-#### Setting Spark Options
-When running PySpark on many cores (e.g. > 8), the memory for the Spark Driver and Workers may need to be increased. If necessary, set the environmental variable `SPARK_CONF_DIR` to the conf directory provided in this repository in your .bashrc (Linux) or .bash_profile (Mac) file.
+#### Setting Spark Configurations
+When running PySpark on many cores (e.g., > 8), the memory for the Spark Driver and Workers may need to be increased. If necessary, set the environmental variable `SPARK_CONF_DIR` to the conf directory provided in this repository in your .bashrc (Linux) or .bash_profile (Mac) file.
 
-```export SPARK_CONF_DIR=<path>/conf```
+```export SPARK_CONF_DIR=<path>/mmtf-genomics/conf```
 
 Then close the terminal window and reopen it to set the environment variable.
 

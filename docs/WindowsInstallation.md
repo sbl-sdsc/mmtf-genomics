@@ -59,8 +59,8 @@ Anytime you want to use the environment, activate it again and start Jupyter Not
 
 ```conda remove -n mmtf-genomics --all```
 
-#### Setting Spark Options
-When running PySpark on many cores (e.g. > 8), the memory for the Spark Driver and Workers may need to be increased. To change memory setting, go to the mmtf-genomics\conf folder and edit the file spark-env.cmd. By default, this file has the following settings:
+#### Setting Spark Configurations
+When running PySpark on many cores (e.g., > 8), the memory for the Spark Driver and Workers may need to be increased. To change memory setting, go to the `mmtf-genomics\conf` folder and edit the file `spark-env.cmd`. By default, this file has the following settings:
 
 ```
 SPARK_DRIVER_MEMORY=4G
