@@ -1,12 +1,12 @@
 # mmtf-genomics
 Methods for mapping genomics data onto 3D protein structure.
 
+## Mapping Missence Mutations from dbSNP to 3D Structures
 A few example Jupyter Notebooks are available for testing and feedback. Click on the notebook link to launch a live Jupyter Notebook in your web browser using [Binder (beta)](https://mybinder.org/).
 * [dbSNPTo3DChain.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FdbSNPTo3DChain.ipynb) Visualizes the positions of missense mutations mapped from dbSNP to 3D protein structures in the Protein Data Bank. 
 * [MutationsInPdb.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FMutationsInPdb.ipynb) Finds and visualizes existing missense mutations from dbSNP in protein structure from the Protein Data Bank. 
-* [1-ReadMutations.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=custom%2F1-ReadMutations.ipynb) Example and template to read a file with mutation data and map it onto 3D structures and protein-protein and protein-nucleic acid interfaces. 
 
-# Custom mapping pipeline
+## Custom 3D Structure Mapping Pipeline
 This pipeline demonstrates how to map genetic locations of SNPs to 3D structures.
 By replacing the demo input file with your own data and adjusting the notebook that reads the data, you can then run the following analyses.
 
@@ -28,13 +28,13 @@ Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-geno
 
 Interested in a collaboration? Please send us use cases. 
 
-# Local Installation
+## Local Installation
 
 [Mac and Linux](/docs/MacLinuxInstallation.md)
 
 [Windows](/docs/WindowsInstallation.md)
 
-# How to Cite this Work
+## How to Cite this Work
 
 Bradley AR, Rose AS, Pavelka A, Valasatava Y, Duarte JM, Prlić A, Rose PW (2017) MMTF - an efficient file format for the transmission, visualization, and analysis of macromolecular structures. PLOS Computational Biology 13(6): e1005575. doi: [10.1371/journal.pcbi.1005575](https://doi.org/10.1371/journal.pcbi.1005575)
 
@@ -44,5 +44,5 @@ Rose AS, Bradley AR, Valasatava Y, Duarte JM, Prlić A, Rose PW (2018) NGL viewe
 
 Rose AS, Bradley AR, Valasatava Y, Duarte JM, Prlić A, Rose PW (2016) Web-based molecular graphics for large complexes. In Proceedings of the 21st International Conference on Web3D Technology (Web3D '16). ACM, New York, NY, USA, 185-186. doi: [10.1145/2945292.2945324](https://doi.org/10.1145/2945292.2945324)
 
-# Funding
+## Funding
 This project is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
