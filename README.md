@@ -10,15 +10,15 @@ A few example Jupyter Notebooks are available for testing and feedback. Click on
 This pipeline demonstrates how to map genetic locations of SNPs to 3D structures.
 By replacing the demo input file with your own data and adjusting the notebook that reads the data, you can then run the following analyses.
 
-Run demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=pipeline1%2F1-ReadMutations.ipynb)
+Run demo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=pipeline1%2F1-ReadMutations.ipynb). At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="400" /> | Read and standardize genetic locations for SNPs |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-2.png" width="400" /> | Map genetic locations to 3D protein structures |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-2.png" width="400" /> | Map genetic locations to protein-protein and protein-nucleic acid interfaces |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-3.png" width="400" /> | Map genetic locations to ligand binding sites |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-4.png" width="400" /> | Map genetic locations to drug binding sites |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="200" /> | Read and standardize genetic locations data |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-2.png" width="200" /> | Map genetic locations to 3D protein structures |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-3.png" width="200" /> | Map genetic locations to protein-protein and protein-nucleic acid interfaces |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-4.png" width="200" /> | Map genetic locations to ligand binding sites |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-5.png" width="200" /> | Map genetic locations to drug binding sites |
 
 
 Launching the Binder server may take a few minutes. [Binder (beta)](https://mybinder.org/) is an experimental platform for reproducible research (The Binder servers can be slow, may run out of memory, or may not always work).
