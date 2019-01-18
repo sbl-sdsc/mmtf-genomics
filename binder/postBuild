@@ -1,6 +1,6 @@
 #!/bin/bash
-jupyter contrib nbextension install --user
-jupyter nbextension enable codefolding/main
+#jupyter contrib nbextension install --user
+#jupyter nbextension enable codefolding/main
 #jupyter nbextension enable autoscroll/main
 #jupyter trust ./dbsnp/MutationsInPdb.ipynb ./dbsnp/dbSNPTo3DChain.ipynb
 jupyter labextension install jupyterlab_3dmol @jupyter-widgets/jupyterlab-manager
