@@ -6,10 +6,9 @@ channels:
 
 dependencies:
   - python>=3.6
-  - jupyterlab_launcher
   - openjdk==8.0.152
   - pyspark==2.3.2
   - biopython==1.72
   - pip
   - pip:
-      - git+https://github.com/sbl-sdsc/mmtf-pyspark.git#mmtfPyspark 
+      - mmtfPyspark==0.3.6 
