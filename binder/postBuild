@@ -1,4 +1,3 @@
 #!/bin/bash
-# commented out to see if extensions interfere with Jupyterlab launch
-#jupyter labextension install jupyterlab_3dmol @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyterlab_3dmol @jupyter-widgets/jupyterlab-manager
 
