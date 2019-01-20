@@ -1,3 +1,4 @@
 #!/bin/bash
-jupyter labextension install jupyterlab_3dmol @jupyter-widgets/jupyterlab-manager
-
+jupyter labextension install jupyterlab_3dmol @jupyter-widgets/jupyterlab-manager --no-build
+# added build command to see if that fixes problem with launching jupyter lab
+jupyter lab build
