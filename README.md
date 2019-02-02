@@ -11,7 +11,7 @@ To run the demos below in your web browser, click on the "launch binder" links b
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to mutant 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Custom 3D Structure Mapping Pipeline
-This protype pipeline demonstrates how to map genetic locations of SNPs to 3D structures. To run this demo, click on the "launch binder" link below. At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
+This protype pipeline demonstrates how to map genetic locations of SNVs to 3D structures. To run this demo, click on the "launch binder" link below. At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
 
 By replacing the demo input file with your own data and adjusting the notebook that reads the data, you can run our own custom analysis.
 
@@ -37,15 +37,22 @@ Interested in a collaboration? Please send us use cases.
 
 ## How to Cite this Work
 
+Bhattacharya R, Rose PW, Burley SK, Prlić A (2017) Impact of genetic variation on three dimensional structure and function of proteins. PLoS ONE 12(3): e0171355. doi: [10.1371/journal.pone.0171355](https://doi.org/10.1371/journal.pone.0171355)
+
 Bradley AR, Rose AS, Pavelka A, Valasatava Y, Duarte JM, Prlić A, Rose PW (2017) MMTF - an efficient file format for the transmission, visualization, and analysis of macromolecular structures. PLOS Computational Biology 13(6): e1005575. doi: [10.1371/journal.pcbi.1005575](https://doi.org/10.1371/journal.pcbi.1005575)
 
-Valasatava Y, Bradley AR, Rose AS, Duarte JM, Prlić A, Rose PW (2017) Towards an efficient compression of 3D coordinates of macromolecular structures. PLOS ONE 12(3): e0174846. doi: [10.1371/journal.pone.01748464](https://doi.org/10.1371/journal.pone.0174846)
+Glusman G, et al. (2017) Mapping genetic variations to three-dimensional protein structures to enhance variant interpretation: a proposed framework. Genome Medicine 9 (1), 113. doi: [10.1186/s13073-017-0509-y](https://doi.org/10.1186/s13073-017-0509-y)
+
+Rego N, Koes, D (2015) 3Dmol.js: molecular visualization with WebGL, Bioinformatics 31, 1322–1324. doi: [10.1093/bioinformatics/btu829](https://doi.org/10.1093/bioinformatics/btu829)
 
 Rose AS, Bradley AR, Valasatava Y, Duarte JM, Prlić A, Rose PW (2018) NGL viewer: web-based molecular graphics for large complexes, Bioinformatics, bty419. doi: [10.1093/bioinformatics/bty419](https://doi.org/10.1093/bioinformatics/bty419)
 
+Sayers EW, et al. (2019) Database resources of the National Center for Biotechnology Information. Nucleic Acids Res., 47, D23–D28. doi: [10.1093/nar/gky1069](https://doi.org/10.1093/nar/gky1069)
+
+Valasatava Y, Bradley AR, Rose AS, Duarte JM, Prlić A, Rose PW (2017) Towards an efficient compression of 3D coordinates of macromolecular structures. PLOS ONE 12(3): e0174846. doi: [10.1371/journal.pone.01748464](https://doi.org/10.1371/journal.pone.0174846)
+
 Wang J, Sheridan R, Onur Sumer S, Schultz N, Xu D, Gao JJ (2018) G2S: A web-service for annotating genomic variants on 3D protein structures, Bioinformatics, 34(11), 1949-1950. doi: [10.1093/bioinformatics/bty047](https://doi.org/10.1093/bioinformatics/bty047)
 
-Rego N, Koes, D (2015) 3Dmol.js: molecular visualization with WebGL, Bioinformatics 31, 1322–1324. doi: [10.1093/bioinformatics/btu829](https://doi.org/10.1093/bioinformatics/btu829)
 
 ## Funding
 This project is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
