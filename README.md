@@ -1,10 +1,15 @@
 # mmtf-genomics
 Methods for mapping genomic data onto 3D protein structure.
 
-## Mapping Missense Mutations from dbSNP to 3D Structures
+## Map Missense Mutations from dbSNP to 3D Structures
 Click on the notebook link to launch a live Jupyter Notebook in your web browser using [Binder (beta)](https://mybinder.org/).
 * [dbSNPTo3DChain.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FdbSNPTo3DChain.ipynb) Visualizes the positions of missense mutations mapped from dbSNP to 3D protein structures in the Protein Data Bank. 
 * [MutationsInPdb.ipynb](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FMutationsInPdb.ipynb) Finds and visualizes existing missense mutations from dbSNP in protein structure from the Protein Data Bank. 
+
+| | |
+|:-- |:-- |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FdbSNPTo3DChain.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to mutant 3D structures <br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?filepath=dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Custom 3D Structure Mapping Pipeline
 This protype pipeline demonstrates how to map genetic locations of SNPs to 3D structures.
