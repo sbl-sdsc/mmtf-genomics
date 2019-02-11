@@ -20,9 +20,6 @@ RUN pip install biopython==1.72
 # Install mmtfPySpark
 RUN pip install git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
 
-# clone mmtf-genomics
-RUN git clone https://github.com/sbl-sdsc/mmtf-genomics
-
 # Set Spark driver memory
 ARG SPARK_DRIVER_MEMORY_ENV=20G
 ENV SPARK_DRIVER_MEMORY=$SPARK_DRIVER_MEMORY_ENV
@@ -34,6 +31,10 @@ ARG MMTF_REDUCED_ENV=/home/jovyan/reduced
 ENV MMTF_REDUCED=$MMTF_REDUCED_ENV
 
 WORKDIR /home/jovyan
+
+# clone mmtf-genomics
+RUN git clone https://github.com/sbl-sdsc/mmtf-genomics
+COPY mmtf-genomics /home/jovyan/vice
 
 # Setup irods
 RUN mkdir .irods
