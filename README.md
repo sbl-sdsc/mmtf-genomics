@@ -10,6 +10,15 @@ To run the demos below in your web browser, click on the "launch binder" links b
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to mutant 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
+## Map Mutations with high Allele Frequences to 3D Structures
+This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the ExAC database to 3D structures in the Protein Data Bank. The dataset is described in:
+
+Niroula A, Vihinen M (2019) How good are pathogenicity predictors in detecting benign variants? PLoS Comput Biol 15(2): e1006481. doi: [10.1371/journal.pcbi.1006481](https://doi.org/10.1371/journal.pcbi.1006481)
+
+| | |
+|:-- |:-- |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/benign-1.png" width="200" /> | Map mutations with high allele frequences to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/benign%2F1-BenignMutationsTo3DStructure.ipynb) |
+
 ## Custom 3D Structure Mapping Pipeline
 This protype pipeline demonstrates how to map genetic locations of SNVs to 3D structures. To run this demo, click on the "launch binder" link below. At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
 
