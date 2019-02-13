@@ -3,26 +3,23 @@ FROM discoenv/jupyter-lab:beta
 USER root
 
 # Update the packages
-RUN apt-get update
+RUN apt-get update \
+    && apt-get clean \
+    && rm -rf /usr/lib/apt/lists/*
 
 USER jovyan
 
-# Install ipykernel
-RUN python3 -m pip install ipykernel
+# Install ipykernel & Biopython
+RUN python3 -m pip install ipykernel \
+    && pip install biopython==1.72
 
-# Install PySpark
-RUN conda install openjdk==8.0.152 -y
-RUN conda install pyspark==2.3.2 -y
-
-# Install Biopython
-RUN pip install biopython==1.72
+# Install OpenJDK & PySpark
+RUN conda install openjdk==8.0.152 pyspark==2.3.2 -y
 
 # Install mmtfPySpark
-RUN pip install git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
+RUN pip install git+https://github.com/sbl-sdsc/mmtf-pyspark.git
 
-# Set Spark driver memory
-ARG SPARK_DRIVER_MEMORY_ENV=20G
-ENV SPARK_DRIVER_MEMORY=$SPARK_DRIVER_MEMORY_ENV
+WORKDIR /home/jovyan
 
 # Set default environment variables for MMTF Hadoop Sequence files
 ARG MMTF_FULL_ENV=/home/jovyan/full
@@ -30,16 +27,13 @@ ENV MMTF_FULL=$MMTF_FULL_ENV
 ARG MMTF_REDUCED_ENV=/home/jovyan/reduced
 ENV MMTF_REDUCED=$MMTF_REDUCED_ENV
 
-WORKDIR /home/jovyan
-
 # clone mmtf-genomics
-RUN git clone https://github.com/sbl-sdsc/mmtf-genomics
-COPY mmtf-genomics /home/jovyan/vice
+RUN git clone https://github.com/sbl-sdsc/mmtf-genomics 
 
-# Setup irods
-RUN mkdir .irods
-RUN echo '{"irods_host": "data.cyverse.org", "irods_port": 1247, "irods_user_name": "$IPLANT_USER", "irods_zone_name": "iplant"}' | envsubst > ~/.irods/irods_environment.json
+RUN mkdir /home/jovyan/mmtf-genomics
+COPY mmtf-genomics /home/jovyan/mmtf-genomics
 
-ENTRYPOINT ["jupyter"]
+COPY entry.sh /bin
+RUN mkdir /home/jovyan/.irods
 
-CMD ["lab", "--no-browser"]
+ENTRYPOINT ["/bin/entry.sh"]
