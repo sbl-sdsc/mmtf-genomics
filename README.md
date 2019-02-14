@@ -1,7 +1,19 @@
 # mmtf-genomics
-Methods for mapping genomic data onto 3D protein structure.
+An experimental project for mapping genomic data onto 3D protein structure in Jupyter Notebooks.
 
-To run the demos below in your web browser, click on the "launch binder" links below. Once Binder is launched, you can navigate to any of the other notebooks. Launching the Binder server may take a few minutes and demos may run very slowly. [Binder (beta)](https://mybinder.org/) is an experimental platform for reproducible research.
+## Run mmtf-genomics in your Web Browser
+The Jupyter Notebooks in this repository can be run in your web browser using two freely available servers: Binder and CyVerse/VICE. Click on the buttons below to launch Jupyter Lab. It may take several minutes for Jupyter Lab to launch.
+
+#### Binder
+[Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
+
+#### CyVerse (experimental version)
+The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to launch Jupyter Lab, upload files, run analyses, and save results. To use VICE, create a free [CyVerse account](https://www.cyverse.org/create-account). 
+
+[![](https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
+
+How to use VICE ... to be added here ...
+
 
 ## Map Missense Mutations from dbSNP to 3D Structures
 
@@ -52,16 +64,29 @@ Bradley AR, Rose AS, Pavelka A, Valasatava Y, Duarte JM, Prlić A, Rose PW (2017
 
 Glusman G, et al. (2017) Mapping genetic variations to three-dimensional protein structures to enhance variant interpretation: a proposed framework. Genome Medicine 9 (1), 113. doi: [10.1186/s13073-017-0509-y](https://doi.org/10.1186/s13073-017-0509-y)
 
-Rego N, Koes, D (2015) 3Dmol.js: molecular visualization with WebGL, Bioinformatics 31, 1322–1324. doi: [10.1093/bioinformatics/btu829](https://doi.org/10.1093/bioinformatics/btu829)
-
 Rose AS, Bradley AR, Valasatava Y, Duarte JM, Prlić A, Rose PW (2018) NGL viewer: web-based molecular graphics for large complexes, Bioinformatics, bty419. doi: [10.1093/bioinformatics/bty419](https://doi.org/10.1093/bioinformatics/bty419)
-
-Sayers EW, et al. (2019) Database resources of the National Center for Biotechnology Information. Nucleic Acids Res., 47, D23–D28. doi: [10.1093/nar/gky1069](https://doi.org/10.1093/nar/gky1069)
 
 Valasatava Y, Bradley AR, Rose AS, Duarte JM, Prlić A, Rose PW (2017) Towards an efficient compression of 3D coordinates of macromolecular structures. PLOS ONE 12(3): e0174846. doi: [10.1371/journal.pone.01748464](https://doi.org/10.1371/journal.pone.0174846)
 
+
+#### Binder
+Jupyter et al., "Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science at Scale." Proceedings of the 17th Python in Science Conference. 2018. 10.25080/Majora-4af1f417-011.
+
+#### CyVerse
+Merchant, Nirav, et al., "The iPlant Collaborative: Cyberinfrastructure for Enabling Data to Discovery for the Life Sciences," PLOS Biology (2016), doi: 10.1371/journal.pbio.1002342.
+
+Goff, Stephen A., et al., "The iPlant Collaborative: Cyberinfrastructure for Plant Biology," Frontiers in Plant Science 2 (2011), doi: 10.3389/fpls.2011.00034.
+
+#### dbSNP Data
+Sayers EW, et al. (2019) Database resources of the National Center for Biotechnology Information. Nucleic Acids Res., 47, D23–D28. doi: [10.1093/nar/gky1069](https://doi.org/10.1093/nar/gky1069)
+
+#### G2S Web Services
 Wang J, Sheridan R, Onur Sumer S, Schultz N, Xu D, Gao JJ (2018) G2S: A web-service for annotating genomic variants on 3D protein structures, Bioinformatics, 34(11), 1949-1950. doi: [10.1093/bioinformatics/bty047](https://doi.org/10.1093/bioinformatics/bty047)
 
+#### Py3Dmol
+Rego N, Koes, D (2015) 3Dmol.js: molecular visualization with WebGL, Bioinformatics 31, 1322–1324. doi: [10.1093/bioinformatics/btu829](https://doi.org/10.1093/bioinformatics/btu829)
 
 ## Funding
-This project is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+The MMTF project is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
+The CyVerse project is supported by the National Science Foundation under Award Numbers DBI-0735191,  DBI-1265383, and DBI-1743442. URL: www.cyverse.org
