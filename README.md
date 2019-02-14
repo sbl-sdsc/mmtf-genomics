@@ -10,9 +10,7 @@ The Jupyter Notebooks in this repository can be run in your web browser using tw
 #### CyVerse (experimental version)
 The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to launch Jupyter Lab, upload files, run analyses, and save results. To use VICE, create a free [CyVerse account](https://www.cyverse.org/create-account). 
 
-[![](https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
-
-How to use VICE ... to be added here ...
+[<img src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_badge.png"  width="100">](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
 
 
 ## Map Missense Mutations from dbSNP to 3D Structures
