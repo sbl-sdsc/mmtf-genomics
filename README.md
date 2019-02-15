@@ -70,12 +70,12 @@ Valasatava Y, Bradley AR, Rose AS, Duarte JM, Prlić A, Rose PW (2017) Towards a
 
 
 #### Binder
-Jupyter et al., "Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science at Scale." Proceedings of the 17th Python in Science Conference. 2018. 10.25080/Majora-4af1f417-011.
+Project Jupyter, et al. (2018) Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science at Scale. Proceedings of the 17th Python in Science Conference. 2018. doi: [10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majora-4af1f417-011)
 
 #### CyVerse
-Merchant, Nirav, et al., "The iPlant Collaborative: Cyberinfrastructure for Enabling Data to Discovery for the Life Sciences," PLOS Biology (2016), doi: 10.1371/journal.pbio.1002342.
+Merchant N, Lyons E, Goff S, Vaughn M, Ware D, Micklos D, et al. (2016) The iPlant Collaborative: Cyberinfrastructure for Enabling Data to Discovery for the Life Sciences. PLoS Biol 14(1): e1002342. doi: [10.1371/journal.pbio.1002342](https://doi.org/10.1371/journal.pbio.1002342)
 
-Goff, Stephen A., et al., "The iPlant Collaborative: Cyberinfrastructure for Plant Biology," Frontiers in Plant Science 2 (2011), doi: 10.3389/fpls.2011.00034.
+Goff, Stephen A., et al. (2011) The iPlant Collaborative: Cyberinfrastructure for Plant Biology. Frontiers in Plant Science 2. doi: [10.3389/fpls.2011.00034](https://doi.org/10.3389/fpls.2011.00034)
 
 #### dbSNP Data
 Sayers EW, et al. (2019) Database resources of the National Center for Biotechnology Information. Nucleic Acids Res., 47, D23–D28. doi: [10.1093/nar/gky1069](https://doi.org/10.1093/nar/gky1069)
