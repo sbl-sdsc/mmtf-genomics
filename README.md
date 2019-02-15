@@ -7,10 +7,12 @@ The Jupyter Notebooks in this repository can be run in your web browser using tw
 #### Binder
 [Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab)
+
 #### CyVerse (experimental version)
 The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to launch Jupyter Lab, upload files, run analyses, and save results. To use VICE, create a free [CyVerse account](https://www.cyverse.org/create-account). 
 
-[<img src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_badge.png"  width="100">](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
+[![Vice](docs/vice_badge.png)(https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
 
 
 ## Map Missense Mutations from dbSNP to 3D Structures
