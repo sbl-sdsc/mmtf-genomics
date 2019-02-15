@@ -2,7 +2,7 @@
 An experimental project for mapping genomic data onto 3D protein structure in Jupyter Notebooks.
 
 ## Run mmtf-genomics in your Web Browser
-The Jupyter Notebooks in this repository can be run in your web browser using two freely available servers: Binder and CyVerse/VICE. Click on the buttons below to launch Jupyter Lab. It may take several minutes for Jupyter Lab to launch.
+The Jupyter Notebooks in this repository can be run in your web browser using two freely available servers: Binder and CyVerse/VICE. Click on the buttons below to launch Jupyter Lab. **It may take several minutes for Jupyter Lab to launch.**
 
 #### Binder
 [Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
@@ -87,6 +87,6 @@ Wang J, Sheridan R, Onur Sumer S, Schultz N, Xu D, Gao JJ (2018) G2S: A web-serv
 Rego N, Koes, D (2015) 3Dmol.js: molecular visualization with WebGL, Bioinformatics 31, 1322–1324. doi: [10.1093/bioinformatics/btu829](https://doi.org/10.1093/bioinformatics/btu829)
 
 ## Funding
-The MMTF project is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+The MMTF project ((Compressive Structural BioInformatics: High Efficiency 3D Structure Compression) is supported by the National Cancer Institute of the National Institutes of Health under Award Number U01CA198942. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 
 The CyVerse project is supported by the National Science Foundation under Award Numbers DBI-0735191,  DBI-1265383, and DBI-1743442. URL: www.cyverse.org
