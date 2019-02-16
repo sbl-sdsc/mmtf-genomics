@@ -7,9 +7,7 @@ See also the [Discovery Environment Guide](https://learning.cyverse.org/projects
 | | |
 |:-- |:-- |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_step1.png" width="200" /> | Register for a free account or go to log in page |
-
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_step2.png" width="200" /> | Log in with your CyVerse ID |
-
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_step3.png" width="200" /> | On the panel *mmtf-genomics*, click **Launch Analysis** |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_step4.png" width="200" /> | Wait for a notification to show up in to top right corner (*alarm bell*), then click **Access your running analysis here**  |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/vice_step5.png" width="200" /> | The launch panel appears. It may take several minutes for the application launch.   |
