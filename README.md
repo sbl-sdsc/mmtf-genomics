@@ -18,13 +18,14 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 
 [![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
 
-[Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md)
+[Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md) 
 
 ---
 
 # Examples using mmtf-genomics
 
 ## Map Missense Mutations from dbSNP to 3D Structures
+The notebook below visualizing the positions of missense mutations mapped from [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) to 3D protein structures in the Protein Data Bank. Variations can be filtered by the clinical significance level from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), UniProt Ids, or a list of specific variants specified by the rs identifier of genomic location.
 
 | | |
 |:-- |:-- |
