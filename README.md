@@ -22,12 +22,14 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 
 ---
 
+# Examples using mmtf-genomics
+
 ## Map Missense Mutations from dbSNP to 3D Structures
 
 | | |
 |:-- |:-- |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to mutant 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to mutant 3D structures (structure that contain the acutal mutated amino acid) <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Map Mutations with high Allele Frequences to 3D Structures
 This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the ExAC database to 3D structures in the Protein Data Bank. The dataset is described in:
@@ -53,7 +55,7 @@ By replacing the demo input file with your own data and adjusting the notebook t
 
 
 ## Feature Requests and Collaborations
-Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-genomics/issues).
+Please send [feedback or feature requests](https://github.com/sbl-sdsc/mmtf-genomics/issues/new).
 
 Interested in a collaboration? Please send us use cases. 
 
