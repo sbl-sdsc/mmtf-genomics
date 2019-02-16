@@ -1,5 +1,5 @@
 # mmtf-genomics
-An experimental project for mapping genomic data onto 3D protein structure in Jupyter Notebooks.
+An experimental project for mapping genomic data onto 3D protein structures in Jupyter Notebooks.
 
 ## Run mmtf-genomics in your Web Browser
 The Jupyter Notebooks in this repository can be run in your web browser using two freely available servers: Binder and CyVerse/VICE. Click on the buttons below to launch Jupyter Lab. **It may take several minutes for Jupyter Lab to launch.**
@@ -7,13 +7,20 @@ The Jupyter Notebooks in this repository can be run in your web browser using tw
 #### Binder
 [Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
 
+Binder provides an easy to use demo environment. Due to limited resoures, Binder is not suitable for compute or memory intensive production analyses. The mmtf-genomics project contains a sample of the Protein Data Bank (~10,000) structures for demo purposes.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab)
 
-#### CyVerse (experimental version)
-The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to launch Jupyter Lab, upload files, run analyses, and save results. To use VICE, create a free [CyVerse account](https://www.cyverse.org/create-account). 
+#### CyVerse/VICE (experimental version under development)
+The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to run Jupyter Lab in a production environment. To use VICE, sign up for a free [CyVerse account](https://www.cyverse.org/create-account). 
+
+The VICE environment supports large-scale analyses. Users can upload and download files, and save and share results of their analyses in their user accounts (up to 100GB of data). **Coming soon:** The environment is preloaded with a local copy of the entire Protein Data Bank (~148,000 structures).
 
 [![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
 
+[Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md)
+
+---
 
 ## Map Missense Mutations from dbSNP to 3D Structures
 
