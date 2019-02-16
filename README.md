@@ -25,7 +25,7 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 # Examples using mmtf-genomics
 
 ## Map Missense Mutations from dbSNP to 3D Structures
-The notebook below visualizing the positions of missense mutations mapped from [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) to 3D protein structures in the Protein Data Bank. Variations can be filtered by the clinical significance level from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), UniProt Ids, or a list of specific variants specified by the rs identifier of genomic location.
+The notebooks below visualize the positions of missense mutations mapped from [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) to 3D protein structures in the Protein Data Bank. Variations can be filtered by the clinical significance level from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), UniProt Ids, or a list of specific variants specified by the rs identifier of genomic location.
 
 | | |
 |:-- |:-- |
