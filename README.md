@@ -33,7 +33,7 @@ The notebooks below visualize the positions of missense mutations mapped from [d
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to 3D structures that contain the associated amino acid change <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Map Mutations with high Allele Frequences to 3D Structures
-This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the ExAC database to 3D structures in the Protein Data Bank. The dataset is described in:
+This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the [ExAC](http://exac.broadinstitute.org/) database to 3D structures in the Protein Data Bank. The dataset is described in:
 
 Niroula A, Vihinen M (2019) How good are pathogenicity predictors in detecting benign variants? PLoS Comput Biol 15(2): e1006481. doi: [10.1371/journal.pcbi.1006481](https://doi.org/10.1371/journal.pcbi.1006481)
 
