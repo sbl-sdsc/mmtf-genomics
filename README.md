@@ -14,7 +14,7 @@ Binder provides an easy to use demo environment. Due to limited resoures, Binder
 #### CyVerse/VICE (experimental version under development)
 The new VICE (Visual Interactive Computing Environment) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to run Jupyter Lab in a production environment. To use VICE, sign up for a free [CyVerse account](https://www.cyverse.org/create-account). 
 
-The VICE environment supports large-scale analyses. Users can upload and download files, and save and share results of their analyses in their user accounts (up to 100GB of data). **Coming soon:** The environment is preloaded with a local copy of the entire Protein Data Bank (~148,000 structures).
+The VICE environment supports large-scale analyses. Users can upload and download files, and save and share results of their analyses in their user accounts (up to 100GB of data). 
 
 [![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
 
