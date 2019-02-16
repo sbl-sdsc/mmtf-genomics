@@ -2,9 +2,7 @@
 
 After clicking the [![Vice](vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de) button, follow the steps below to launch Jupyter Lab, run your analyses, and save your results.
 
-See also:
-
-[VICE Starting JupyterLab App](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/user_guide/quick-jupyter.html) | 
+See also: [VICE Starting JupyterLab App](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/user_guide/quick-jupyter.html) | 
 [VICE Webinar](https://www.youtube.com/watch?v=KpBC0nScfL0) | 
 [Discovery Environment Guide](https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/)
 
