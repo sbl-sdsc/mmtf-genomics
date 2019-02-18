@@ -7,7 +7,7 @@ The Jupyter Notebooks in this repository can be run in your web browser using tw
 #### Binder
 [Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
 
-Binder provides an easy to use demo environment. Due to limited resoures, Binder is not suitable for compute or memory intensive production analyses. The mmtf-genomics project contains a sample of the Protein Data Bank (~10,000) structures for demo purposes.
+Binder provides an easy to use demo environment. Due to limited resoures, Binder is not suitable for compute or memory intensive production analyses and may occasionally fail to run the notebooks in this repository.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab?filepath=tree)
 
