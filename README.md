@@ -1,4 +1,6 @@
 # mmtf-genomics
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/peterwrose/status/1097614306542112769)
+
 An experimental project for mapping genomic data onto 3D protein structures in Jupyter Notebooks.
 
 ## Run mmtf-genomics in your Web Browser
