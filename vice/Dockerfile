@@ -30,8 +30,8 @@ ENV MMTF_REDUCED=$MMTF_REDUCED_ENV
 # clone mmtf-genomics
 RUN git clone https://github.com/sbl-sdsc/mmtf-genomics 
 
-RUN mkdir /home/jovyan/mmtf-genomics
-COPY mmtf-genomics /home/jovyan/mmtf-genomics
+#RUN mkdir /home/jovyan/mmtf-genomics
+#COPY mmtf-genomics /home/jovyan/mmtf-genomics
 
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
