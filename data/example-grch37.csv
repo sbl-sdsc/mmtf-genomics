@@ -1,0 +1,4 @@
+ID,CHROM,POS,REF,ALT,annotation,color
+rs147776857,6,52619766,C,T,GSTA2 missense mutation,blue
+rs121913460,9,133738358,A,T,ABL1 missense mutation,green
+rs34933751,11,5246945,G,T,HBB missense mutation,purple
