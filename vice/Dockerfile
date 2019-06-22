@@ -39,9 +39,6 @@ ENV OMP_NUM_THREADS=1
 # Clone mmtf-genomics
 RUN git clone https://github.com/sbl-sdsc/mmtf-genomics 
 
-#RUN mkdir /home/jovyan/mmtf-genomics
-#COPY mmtf-genomics /home/jovyan/mmtf-genomics
-
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
 
