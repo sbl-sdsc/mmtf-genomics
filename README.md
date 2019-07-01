@@ -18,7 +18,7 @@ The new [VICE (Visual Interactive Computing Environment)](https://cyverse-visual
 
 The VICE environment supports large-scale analyses. Users can upload and download files, and save and share results of their analyses in their user accounts (up to 100GB of data). 
 
-[![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=ad36b1e4-2dae-11e9-af23-008cfa5ae621&system-id=de)
+[![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=00d83c10-9b9a-11e9-8421-008cfa5ae621&system-id=de)
 
 [Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md) 
 
