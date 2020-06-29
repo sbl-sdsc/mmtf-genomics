@@ -6,11 +6,13 @@ channels:
 
 dependencies:
   - python>=3.6
-  - openjdk==8.0.152
-  - pyspark==2.4.0
-  - py4j==0.10.7
-  - biopython==1.72
-  - numba==0.49.0
+  - openjdk=8.0.152
+  - pyspark=2.4.0
+  - py4j=0.10.7
+  - biopython=1.72
+  - numba=0.49.0
+  - jupyterlab=2.1.5
+  - ipywidgets=7.5.1
   - pip
   - pip:
     - git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
