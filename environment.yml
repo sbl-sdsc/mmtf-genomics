@@ -9,7 +9,6 @@ dependencies:
   - openjdk==8.0.152
   - pyspark==2.4.0
   - py4j==0.10.7
-  - jupyterlab==2.1.1
   - biopython==1.72
   - numba==0.49.0
   - pip
