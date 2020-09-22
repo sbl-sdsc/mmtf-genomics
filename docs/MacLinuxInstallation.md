@@ -21,9 +21,13 @@ If you have any problems with this installation, please [file an issue](https://
 
 ```conda activate mmtf-genomics```
 
-#### Launch Jupyter Notebook
+#### Install Jupyter Lab extension
 
-```jupyter notebook```
+````jupyter labextension install @jupyter-widgets/jupyterlab-manager```
+
+#### Launch Jupyter Lab
+
+```jupyter lab```
 
 #### After you are finished, deactivate the conda environment
 
@@ -31,9 +35,9 @@ If you have any problems with this installation, please [file an issue](https://
 
 Anytime you want to use the environment, activate it again and start Jupyter Notebook
 
-#### To permanently remove the benchmark environment
+#### To remove the conda environment
 
-```conda remove -n mmtf-genomics --all```
+```conda env remove -n mmtf-genomics```
 
 
 #### Setting Spark Configurations

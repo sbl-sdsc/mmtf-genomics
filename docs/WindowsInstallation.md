@@ -45,9 +45,13 @@ Skip this step if you have `git` installed.
 
 ```conda activate mmtf-genomics```
 
-#### Launch Jupyter Notebook
+#### Install Jupyter Lab extension
 
-```jupyter notebook```
+````jupyter labextension install @jupyter-widgets/jupyterlab-manager```
+
+#### Launch Jupyter Lab
+
+```jupyter lab```
 
 #### After you are finished, deactivate the conda environment
 
@@ -55,9 +59,9 @@ Skip this step if you have `git` installed.
 
 Anytime you want to use the environment, activate it again and start Jupyter Notebook
 
-#### To permanently remove the benchmark environment
+#### To remove the conda environment
 
-```conda remove -n mmtf-genomics --all```
+```conda env remove -n mmtf-genomics```
 
 #### Setting Spark Configurations
 When running PySpark on many cores (e.g., > 8), the memory for the Spark Driver and Workers may need to be increased. To change memory setting, go to the `mmtf-genomics\conf` folder and edit the file `spark-env.cmd`. By default, this file has the following settings:
