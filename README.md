@@ -7,7 +7,7 @@ An experimental project for mapping genomic data onto 3D protein structures in J
 The Jupyter Notebooks in this repository can be run in your web browser using two freely available servers: Binder and CyVerse/VICE. Click on the buttons below to launch Jupyter Lab. **It may take several minutes for Jupyter Lab to launch.**
 
 #### Binder
-[Binder](https://mybinder.org/) is an experimental platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
+[Binder](https://mybinder.org/) is a platform for reproducible research developed by [Project Jupyter](https://jupyter.org/). Learn more about [Binder](https://blog.jupyter.org/mybinder-org-serves-two-million-launches-7543ae498a2a). There are specific links for each notebook below, however, once Jupyter Lab is launched, navigate to any of the other notebooks using the Jupyter Lab file panel.
 
 Binder provides an easy to use demo environment. Due to limited resoures, Binder is not suitable for compute or memory intensive production analyses and may occasionally fail to run the notebooks in this repository.
 
@@ -26,13 +26,17 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 
 # Examples using mmtf-genomics
 
+## NEW: Map SARS-CoV-2 Missense Mutations to 3D Structures
+The notebooks in [sars-cov-2 folder](sars-cov-2) map missense mutations aggregated by the [COVID-19-Net Knowledge Graph](https://github.com/covid-19-net/covid-19-community) to available 3D protein structures in the Protein Data Bank. Mutations are mapped onto protein-protein interaction sites, ligand binding sites, drug binding sites.
+
+
 ## Map Mutations from dbSNP to 3D Structures
 The notebooks below visualize the positions of missense mutations mapped from [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) to 3D protein structures in the Protein Data Bank. Variations can be filtered by the clinical significance level from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), UniProt Ids, or a list of specific variants specified by the rs identifier or genomic location.
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to 3D structures that contain the associated amino acid change <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to 3D structures that contain the associated amino acid change <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Map Mutations with high Allele Frequences to 3D Structures
 This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the [ExAC](http://exac.broadinstitute.org/) database to 3D structures in the Protein Data Bank. The dataset is described in:
@@ -41,7 +45,7 @@ Niroula A, Vihinen M (2019) How good are pathogenicity predictors in detecting b
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/benign-1.png" width="200" /> | Map mutations with high allele frequences to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/benign%2F1-BenignMutationsTo3DStructure.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/benign-1.png" width="200" /> | Map mutations with high allele frequences to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/benign%2F1-BenignMutationsTo3DStructure.ipynb) |
 
 ## Custom 3D Structure Mapping Pipeline
 This protype pipeline demonstrates how to map genetic locations of SNVs to 3D structures. To run this demo, click on the "launch binder" link below. At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
@@ -50,7 +54,7 @@ By replacing the demo input file with your own data and adjusting the notebook t
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="200" /> | Read and standardize genetic location data <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/pipeline1%2F1-ReadMutations.ipynb)|
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="200" /> | Read and standardize genetic location data <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/pipeline1%2F1-ReadMutations.ipynb)|
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-2.png" width="200" /> | Map genetic locations to 3D protein structures |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-3.png" width="200" /> | Map genetic locations to protein-protein and protein-nucleic acid interfaces |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-4.png" width="200" /> | Map genetic locations to ligand binding sites |
