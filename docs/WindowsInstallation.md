@@ -47,7 +47,7 @@ Skip this step if you have `git` installed.
 
 #### Install Jupyter Lab extension
 
-````jupyter labextension install @jupyter-widgets/jupyterlab-manager```
+```jupyter labextension install @jupyter-widgets/jupyterlab-manager```
 
 #### Launch Jupyter Lab
 
