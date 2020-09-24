@@ -17,6 +17,4 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
-    - rcsbsearch==0.2.1
-    - --pre
     - py2neo
