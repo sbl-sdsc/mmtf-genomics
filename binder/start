@@ -1,5 +1,5 @@
 #!/bin/bash
-export MASTER=local[1]
-export SPARK_DRIVER_MEMORY=2G
+export MASTER=local[8]
+export SPARK_DRIVER_MEMORY=16G
 exec "$@"
 
