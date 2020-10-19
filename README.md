@@ -29,6 +29,12 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 ## NEW: Map SARS-CoV-2 Missense Mutations to 3D Structures
 The notebooks in [sars-cov-2 folder](sars-cov-2) map missense mutations aggregated by the [COVID-19-Net Knowledge Graph](https://github.com/covid-19-net/covid-19-community) to available 3D protein structures in the Protein Data Bank. Mutations are mapped onto protein-protein interaction sites, ligand binding sites, drug binding sites.
 
+| | |
+|:-- |:-- |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFab.png" width="200" /> | Map SARS-CoV2 mutations to 3D structures, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD (REGN10933-RBD-REGN10987 complex (1)) with observed mutations highlighted<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F1-MapTo3DStructures.ipynb)|
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFabInteractions.png" width="200" /> | Map SARS-CoV2 mutations to protein-protein interactions, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD with observed mutations at the binding interface<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F2-MapToPolymerInteractions.ipynb)|
+
+Reference: (1) Hansen J, Baum A, Pascal KE, et al. Studies in humanized mice and convalescent humans yield a SARS-CoV-2 antibody cocktail. Science. 2020;369(6506):1010-1014. [doi:10.1126/science.abd0827](https://doi.org/10.1126/science.abd0827), PDB id: 6XD6.
 
 ## Map Mutations from dbSNP to 3D Structures
 The notebooks below visualize the positions of missense mutations mapped from [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) to 3D protein structures in the Protein Data Bank. Variations can be filtered by the clinical significance level from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), UniProt Ids, or a list of specific variants specified by the rs identifier or genomic location.
