@@ -3,17 +3,17 @@ name: mmtf-genomics
 channels:
   - conda-forge
   - anaconda
+  - bioconda
 
 dependencies:
-  - python=3.7
+  - python=3.6
   - openjdk=8.0.152
   - pyspark=2.4.0
-  - py4j=0.10.7
   - biopython=1.72
-  - numba=0.49.0
-  - jupyterlab=2.1.5
-  - nodejs=10.13
-  - ipywidgets=7.5.1
+  - numba=0.41.0
+  - jupyterlab=3
+  - py3Dmol=0.8.0
+  - ipywidgets=7.6.2
   - pip
   - pip:
     - git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
