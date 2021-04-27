@@ -21,10 +21,6 @@ If you have any problems with this installation, please [file an issue](https://
 
 ```conda activate mmtf-genomics```
 
-#### Install Jupyter Lab extension
-
-```jupyter labextension install @jupyter-widgets/jupyterlab-manager```
-
 #### Launch Jupyter Lab
 
 ```jupyter lab```

@@ -45,10 +45,6 @@ Skip this step if you have `git` installed.
 
 ```conda activate mmtf-genomics```
 
-#### Install Jupyter Lab extension
-
-```jupyter labextension install @jupyter-widgets/jupyterlab-manager```
-
 #### Launch Jupyter Lab
 
 ```jupyter lab```
