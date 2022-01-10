@@ -6,17 +6,16 @@ channels:
 
 dependencies:
   - python=3.7
-  - openjdk==8.0.152
-  - pyspark==2.4.0
-  - py4j==0.10.7
-  - biopython==1.72
-  - numba==0.49.0
-  - jupyterlab==2.1.5
-  - nodejs=10.13
-  - ipywidgets=7.5.1
+  - openjdk=8.0.152
+  - pyspark=2.4.0
+  - py4j=0.10.7
+  - biopython=1.72
+  - numba=0.49.0
+  - jupyterlab=3
+  - ipywidgets=7.6.2
+  - py2neo
+  - monotonic
   - pip
   - pip:
     - git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
     - rcsbsearch==0.2.1
-    - --pre
-    - py2neo

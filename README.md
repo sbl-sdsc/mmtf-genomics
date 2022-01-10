@@ -11,7 +11,9 @@ The Jupyter Notebooks in this repository can be run in your web browser using tw
 
 Binder provides an easy to use demo environment. Due to limited resoures, Binder is not suitable for compute or memory intensive production analyses and may occasionally fail to run the notebooks in this repository.
 
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab)
+**NOTE:** Authentication is now required to launch binder! Sign into GitHub from your browser, then click on the `launch binder` badge below to launch Jupyter Lab.
+
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab)
 
 #### CyVerse/VICE
 The new [VICE (Visual Interactive Computing Environment)](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html) in the [CyVerse Discovery Environment](https://www.cyverse.org/discovery-environment) enables users to run Jupyter Lab in a production environment. To use VICE, sign up for a free [CyVerse account](https://www.cyverse.org/create-account). 
@@ -31,8 +33,8 @@ The notebooks in [sars-cov-2 folder](sars-cov-2) map missense mutations aggregat
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFab.png" width="200" /> | Map SARS-CoV2 mutations to 3D structures, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD (REGN10933-RBD-REGN10987 complex (1)) with observed mutations highlighted<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F1-MapTo3DStructures.ipynb)|
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFabInteractions.png" width="200" /> | Map SARS-CoV2 mutations to protein-protein interactions, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD with observed mutations at the binding interface<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F2-MapToPolymerInteractions.ipynb)|
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFab.png" width="200" /> | Map SARS-CoV2 mutations to 3D structures, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD (REGN10933-RBD-REGN10987 complex (1)) with observed mutations highlighted<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F1-MapTo3DStructures.ipynb)|
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/RegeneronFabInteractions.png" width="200" /> | Map SARS-CoV2 mutations to protein-protein interactions, <br>Example: Two Regeneron Fab fragments bound to Spike glycoprotein RBD with observed mutations at the binding interface<br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/sars-cov-2%2F2-MapToPolymerInteractions.ipynb)|
 
 Reference: (1) Hansen J, Baum A, Pascal KE, et al. Studies in humanized mice and convalescent humans yield a SARS-CoV-2 antibody cocktail. Science. 2020;369(6506):1010-1014. [doi:10.1126/science.abd0827](https://doi.org/10.1126/science.abd0827), PDB id: 6XD6.
 
@@ -41,8 +43,8 @@ The notebooks below visualize the positions of missense mutations mapped from [d
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to 3D structures that contain the associated amino acid change <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-1.png" width="200" /> | Map missense mutations from dbSNP to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FdbSNPTo3DChain.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/dbsnp-2.png" width="200" /> | Map missense mutations from dbSNP to 3D structures that contain the associated amino acid change <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/dbsnp%2FMutationsInPdb.ipynb) |
 
 ## Map Mutations with high Allele Frequences to 3D Structures
 This notebook maps a dataset of 63,197 missense mutations with allele frequencies >=1% and <25% extracted from the [ExAC](http://exac.broadinstitute.org/) database to 3D structures in the Protein Data Bank. The dataset is described in:
@@ -51,7 +53,7 @@ Niroula A, Vihinen M (2019) How good are pathogenicity predictors in detecting b
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/benign-1.png" width="200" /> | Map mutations with high allele frequences to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/benign%2F1-BenignMutationsTo3DStructure.ipynb) |
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/benign-1.png" width="200" /> | Map mutations with high allele frequences to 3D structures <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/benign%2F1-BenignMutationsTo3DStructure.ipynb) |
 
 ## Custom 3D Structure Mapping Pipeline
 This protype pipeline demonstrates how to map genetic locations of SNVs to 3D structures. To run this demo, click on the "launch binder" link below. At the bottom of each notebook is a link to the next step. In total, there are 5 steps to this pipeline, shown below.
@@ -60,7 +62,7 @@ By replacing the demo input file with your own data and adjusting the notebook t
 
 | | |
 |:-- |:-- |
-| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="200" /> | Read and standardize genetic location data <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/pipeline1%2F1-ReadMutations.ipynb)|
+| <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-1.png" width="200" /> | Read and standardize genetic location data <br><br> [![Binder](https://mybinder.org/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/sbl-sdsc/mmtf-genomics/master?urlpath=lab/tree/pipeline1%2F1-ReadMutations.ipynb)|
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-2.png" width="200" /> | Map genetic locations to 3D protein structures |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-3.png" width="200" /> | Map genetic locations to protein-protein and protein-nucleic acid interfaces |
 | <img class="tool-thumb" style="border-style: solid; border-width: 1px;" src="https://raw.githubusercontent.com/sbl-sdsc/mmtf-genomics/master/docs/pipeline1-4.png" width="200" /> | Map genetic locations to ligand binding sites |
