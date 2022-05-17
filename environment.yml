@@ -8,13 +8,19 @@ dependencies:
   - python=3.7
   - openjdk=8.0.152
   - pyspark=2.4.0
-#  - py4j=0.10.7
   - biopython=1.72
   - numba=0.49.0
+  - numpy=1.16.1
   - jupyterlab=3.2.5
   - ipywidgets=7.6.5
   - py2neo
   - monotonic
+  - conda-pack=0.7.0
   - pip
   - pip:
     - git+https://github.com/sbl-sdsc/mmtf-pyspark.git 
+
+variables:
+  SPARK_DRIVER_MEMORY: 16G
+  SPARK_DRIVER_MAXRESULTSIZE: 4G
+  SPARK_WORKER_MEMORY: 4G
